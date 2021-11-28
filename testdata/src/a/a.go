@@ -8,7 +8,7 @@ type ok struct {
 }
 
 type ng struct {
-	ctx context.Context // want "found a struct that contains a Context field"
+	ctx context.Context // want "found a struct that contains a context.Context field"
 }
 
 type empty struct{}

@@ -8,7 +8,7 @@ import (
 	"golang.org/x/tools/go/ast/inspector"
 )
 
-const doc = "containedctx detects is a linter that detects struct contained ctx.Context field"
+const doc = "containedctx detects is a linter that detects struct contained context.Context field"
 
 // Analyzer is the contanedctx analyzer
 var Analyzer = &analysis.Analyzer{
@@ -44,7 +44,7 @@ func run(pass *analysis.Pass) (interface{}, error) {
 				}
 				selname := selectorExpr.Sel.Name
 				if xname.Name+"."+selname == "context.Context" {
-					pass.Reportf(field.Pos(), "found a struct that contains a Context field")
+					pass.Reportf(field.Pos(), "found a struct that contains a context.Context field")
 				}
 			}
 		}
