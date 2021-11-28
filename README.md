@@ -1,6 +1,6 @@
 # containedctx
 
-[![test_and_lint](https://github.com/sivchari/containedctx/actions/workflows/workflows.yml/badge.svg?branch=main)](https://github.com/sivchari/containedctx/actions/workflows/workflows.yml)
+[![test_and_lint](https://github.com/sivchari/containedctx/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sivchari/containedctx/actions/workflows/ci.yml)
 
 containedctx detects is a linter that detects struct contained context.Context field
 
