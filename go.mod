@@ -1,4 +1,4 @@
-module containedctx
+module github.com/sivchari/containedctx
 
 go 1.17
 

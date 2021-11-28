@@ -3,9 +3,10 @@ package containedctx_test
 import (
 	"testing"
 
-	"containedctx"
 	"github.com/gostaticanalysis/testutil"
 	"golang.org/x/tools/go/analysis/analysistest"
+
+	"github.com/sivchari/containedctx"
 )
 
 // TestAnalyzer is a test for Analyzer.

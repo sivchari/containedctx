@@ -7,8 +7,9 @@ package main
 import (
 	"strings"
 
-	"containedctx"
 	"golang.org/x/tools/go/analysis"
+
+	"github.com/sivchari/containedctx"
 )
 
 // flags for Analyzer.Flag.
