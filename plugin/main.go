@@ -14,7 +14,7 @@ import (
 
 // flags for Analyzer.Flag.
 // If you would like to specify flags for your plugin, you can put them via 'ldflags' as below.
-//     $ go build -buildmode=plugin -ldflags "-X 'main.flags=-opt val'" containedctx/plugin/containedctx
+// $ go build -buildmode=plugin -ldflags "-X 'main.flags=-opt val'" containedctx/plugin/containedctx
 var flags string
 
 // AnalyzerPlugin provides analyzers as a plugin.
