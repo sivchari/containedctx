@@ -8,9 +8,9 @@ import (
 	"golang.org/x/tools/go/ast/inspector"
 )
 
-const doc = "containedctx is a linter that detects struct contained context.Context field"
+const doc = "A linter that detects structs containing a context.Context field."
 
-// Analyzer is the contanedctx analyzer
+// Analyzer is the containedctx analyzer
 var Analyzer = &analysis.Analyzer{
 	Name: "containedctx",
 	Doc:  doc,
