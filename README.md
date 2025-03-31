@@ -9,7 +9,7 @@ For rationale please read [Contexts and structs](https://go.dev/blog/context-and
 ## Instruction
 
 ```sh
-go install github.com/sivchari/containedctx/cmd/containedctx
+go install github.com/sivchari/containedctx/cmd/containedctx@latest
 ```
 
 ## Usage
